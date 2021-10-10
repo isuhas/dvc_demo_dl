@@ -131,8 +131,12 @@ data/*
 research
 .idea/
 .vscode/
+*.h5
 
 
 ./env
 # ignore the secrets file
 config/secrets.yaml
+
+# Artifacts
+artifacts/*
