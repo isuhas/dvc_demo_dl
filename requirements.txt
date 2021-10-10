@@ -1,8 +1,11 @@
 dvc
 tensorflow==2.5.0
-matplotlib
-pandas
-numpy
-PyYAML
-tqdm
-boto3 ##for AWS
+matplotlib==3.4.3
+pandas==1.1.5
+numpy==1.19.5
+PyYAML==5.4.1
+tqdm==4.62.3
+boto3==1.18.58 ##for AWS
+
+# local setup installation -
+-e .

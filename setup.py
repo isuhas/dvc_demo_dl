@@ -15,13 +15,13 @@ setup(
     packages=["src"],
     python_requires=">=3.7",
     install_requires=[
-        "dvc",
-        "tensorflow",
-        "matplotlib",
-        "numpy",
-        "pandas",
-        "tqdm",
-        "PyYAML",
-        "boto3" ,
+        'dvc',
+        'tensorflow==2.5.0',
+        'matplotlib==3.4.3',
+        'pandas==1.1.5',
+        'numpy==1.19.5',
+        'PyYAML==5.4.1',
+        'tqdm==4.62.3',
+        'boto3==1.18.58'
     ]
 )
